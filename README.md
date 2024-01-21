@@ -1,4 +1,9 @@
 ## kafka-error-handling
+
+YT= https://youtu.be/HfaLkUulaSo
+To Lunch the H2 console in browser  =  http://localhost:8081/h2-console  
+In H2 console change the JDBC url value(which is mentioned in the appliation.properties file) = jdbc:h2:mem:testdb
+This approach is only for if the message sequence doesn't matter the order.
 Kafka Application which uses main topic and retry topic, and h2 database to retry and handle the error.
 
 The messages are produced and sent to a Kafka topic.
